@@ -5,6 +5,9 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
+
+/*Where MVC app decides how to navigate between controllers and actions.
+ This file is generally untouched but important to understand the routing.*/
 namespace MVCSite
 {
     public class RouteConfig

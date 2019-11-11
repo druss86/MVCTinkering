@@ -31,12 +31,15 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Daniel Russell - MIT</p>
         </footer>
     </div>
-
+    
+    @* Bundling - located in App_Start/BundleConfig.cs - Responsible for grouping scripts and calling them with C# method Render - Not Commonly manipulated *@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+
+    @* This is where you put any custom JavaScript, Look at Index.cshtml and you can see where to insert JS *@
     @RenderSection("scripts", required: false)
 </body>
 </html>

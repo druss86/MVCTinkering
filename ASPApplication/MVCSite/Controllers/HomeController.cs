@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
+/* This Controller returns a view (from Views/Home) when calling an appropriate method.*/
 namespace MVCSite.Controllers
 {
     public class HomeController : Controller
